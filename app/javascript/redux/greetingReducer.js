@@ -11,7 +11,7 @@ export default function greetingsReducer(state = [], action = {}){
 
 function getGreeting(){
     return async(dispatch) =>{
-        const response = await fetch('/greeting');
+        const response = await fetch('/api/v1/greetings');
         const greetings = await response.json();
 
         dispatch({
