@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # get 'greeting/index'
   namespace :api do
     namespace :v1 do
-      get 'greetings', to: 'greetings#random_greeting'
+      resources :greetings, only: [:index]
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
