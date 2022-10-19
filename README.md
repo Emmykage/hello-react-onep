@@ -96,8 +96,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella). Published under the [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/).
-- Linters workflow created by [@anagudelogu](https://github.com/anagudelogu)
+- None
 
 ## 📝 License
 
